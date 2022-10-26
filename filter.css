@@ -1,0 +1,12 @@
+body{
+    background-color: brown;
+}
+
+img {
+    filter: hue-rotate(0deg);
+    transition: filter 1s;
+}
+
+img:hover{
+    filter: hue-rotate(360deg);
+}
